@@ -1,0 +1,6 @@
+Olá professor Cláudio. Aqui está o conversor binário/decimal que pediu. Ele converte tanto binários e decimais inteiros quanto fracionários.
+Isso se deve a duas funções em Javascript simples que utilizam de operadores matemáticos para realizar a conversão. O código está totalmente comentado.
+
+
+
+Trabalho feito por Vinícius Goddard, Domynic Baros Lima, Raphael Arnaut Rossi

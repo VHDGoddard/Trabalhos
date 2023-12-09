@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor Binário/Decimal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="conversor">
+        <h1>Conversor Binário/Decimal</h1>
+
+        <!-- Conversor Binário para Decimal -->
+        <div>
+            <label for="binarioInput">Digite um número binário:</label>
+            <input type="text" id="binarioInput" placeholder="Digite aqui">
+            <button onclick="binarioParaDecimal()">Converter para Decimal</button>
+            <p id="resultadoDecimal"></p>
+        </div>
+
+        <!-- Conversor Decimal para Binário -->
+        <div>
+            <label for="decimalInput">Digite um número decimal:</label>
+            <input type="number" id="decimalInput" placeholder="Digite aqui">
+            <button onclick="decimalParaBinario()">Converter para Binário</button>
+            <p id="resultadoBinario"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
